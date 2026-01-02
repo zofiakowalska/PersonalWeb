@@ -64,10 +64,11 @@ export default function PersonalWebsite() {
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white/90 backdrop-blur-md rounded-full shadow-lg p-3 text-blue-600 hover:text-blue-700 hover:bg-white transition-all border border-gray-200"
+          className="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 text-blue-600 hover:text-blue-700 hover:bg-white transition-all border border-gray-200 flex items-center gap-2 font-medium"
           aria-label="LinkedIn"
         >
           <Linkedin className="w-5 h-5" />
+          <span className="text-sm font-semibold">LinkedIn</span>
         </a>
       </nav>
 
