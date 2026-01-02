@@ -49,16 +49,8 @@ export default function PersonalWebsite() {
 
   return (
     <div className="min-h-screen" style={{
-      backgroundColor: '#938eb8',
-      backgroundImage: `
-        radial-gradient(circle at 25% 25%, rgba(147, 142, 184, 0.8) 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, rgba(147, 142, 184, 0.6) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(115, 110, 160, 0.3) 0%, transparent 60%),
-        repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(147, 142, 184, 0.05) 2px, rgba(147, 142, 184, 0.05) 4px),
-        repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(115, 110, 160, 0.03) 2px, rgba(115, 110, 160, 0.03) 4px)
-      `,
-      backgroundAttachment: 'fixed',
-      backgroundSize: '100% 100%, 100% 100%, 100% 100%, 20px 20px, 20px 20px'
+      background: 'linear-gradient(135deg, #5a4f6a 0%, #6a5f7a 25%, #7a6f8a 50%, #8a7f9a 75%, #938eb8 100%)',
+      backgroundAttachment: 'fixed'
     }}>
       {/* Floating Navigation */}
       <nav className="fixed top-6 left-6 z-50 flex items-center gap-4">
