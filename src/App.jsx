@@ -48,10 +48,10 @@ export default function PersonalWebsite() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#f5f4f8' }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#938eb8' }}>
       {/* Floating Navigation */}
       <nav className="fixed top-6 left-6 z-50 flex items-center gap-4">
-        <div className="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-2 py-2 flex items-center gap-1" style={{ border: '1px solid #938eb8' }}>
+        <div className="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-2 py-2 flex items-center gap-1" style={{ border: '1px solid #1d1f2b' }}>
           {sections.map((section) => (
             <button
               key={section.id}
@@ -62,12 +62,12 @@ export default function PersonalWebsite() {
                   : 'hover:bg-opacity-10'
               }`}
               style={activeSection === section.id 
-                ? { backgroundColor: '#938eb8' }
+                ? { backgroundColor: '#1d1f2b', color: '#ffffff' }
                 : { color: '#1d1f2b' }
               }
               onMouseEnter={(e) => {
                 if (activeSection !== section.id) {
-                  e.currentTarget.style.backgroundColor = 'rgba(147, 142, 184, 0.1)';
+                  e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.1)';
                 }
               }}
               onMouseLeave={(e) => {
@@ -86,7 +86,7 @@ export default function PersonalWebsite() {
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 hover:bg-white transition-all flex items-center gap-2 font-medium"
-          style={{ border: '1px solid #938eb8', color: '#0077b5' }}
+          style={{ border: '1px solid #1d1f2b', color: '#0077b5' }}
           onMouseEnter={(e) => {
             e.currentTarget.style.color = '#005885';
           }}
@@ -107,7 +107,7 @@ export default function PersonalWebsite() {
             YN
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Your Name</h1>
-          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#938eb8' }}>Job Title / Academic Position</p>
+          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#1d1f2b' }}>Job Title / Academic Position</p>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: '#1d1f2b' }}>
             Welcome to my personal website. Scroll down to learn more about my background, experience, and work.
           </p>
@@ -128,7 +128,7 @@ export default function PersonalWebsite() {
                 Replace this text with your professional biography. Include your background, 
                 current role, research interests, and what drives your work.
               </p>
-              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#938eb8' }}>Research Interests</h3>
+              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#1d1f2b' }}>Research Interests</h3>
               <ul className="list-disc list-inside space-y-2">
                 <li>Research Area 1</li>
                 <li>Research Area 2</li>
@@ -149,9 +149,9 @@ export default function PersonalWebsite() {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Degree Name</h3>
-                    <p className="text-lg" style={{ color: '#938eb8' }}>University Name</p>
+                    <p className="text-lg" style={{ color: '#1d1f2b' }}>University Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#938eb8' }}>Graduation Year</span>
+                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Graduation Year</span>
                 </div>
                 <p style={{ color: '#1d1f2b' }}>
                   Field of study, thesis title (if applicable), advisor, honors, or other relevant details.
@@ -172,9 +172,9 @@ export default function PersonalWebsite() {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Position Title</h3>
-                    <p className="text-lg" style={{ color: '#938eb8' }}>Organization Name</p>
+                    <p className="text-lg" style={{ color: '#1d1f2b' }}>Organization Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#938eb8' }}>Start - End Date</span>
+                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Start - End Date</span>
                 </div>
                 <p style={{ color: '#1d1f2b' }}>
                   Describe your responsibilities, achievements, and key projects in this role. 
@@ -194,7 +194,7 @@ export default function PersonalWebsite() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
-                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#938eb8' }}>{category}</h3>
+                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#1d1f2b' }}>{category}</h3>
                   <ul className="space-y-2" style={{ color: '#1d1f2b' }}>
                     <li>• Skill 1</li>
                     <li>• Skill 2</li>
@@ -217,15 +217,15 @@ export default function PersonalWebsite() {
                 <h3 className="text-xl font-bold mb-2" style={{ color: '#1d1f2b' }}>
                   "Publication Title Goes Here"
                 </h3>
-                <p className="mb-3" style={{ color: '#938eb8' }}>
+                <p className="mb-3" style={{ color: '#1d1f2b' }}>
                   Author Names (Year). <em>Journal/Conference Name</em>, Volume(Issue), pages.
                 </p>
                 <p className="mb-4" style={{ color: '#1d1f2b' }}>
                   Brief description of the publication and its key findings or contributions.
                 </p>
-                <a href="#" className="font-medium" style={{ color: '#938eb8' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#1d1f2b'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#938eb8'}>
+                <a href="#" className="font-medium" style={{ color: '#1d1f2b' }}
+                   onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
+                   onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
                   View Publication →
                 </a>
               </div>
@@ -244,9 +244,9 @@ export default function PersonalWebsite() {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Leadership Role / Initiative</h3>
-                    <p className="text-lg" style={{ color: '#938eb8' }}>Organization / Group</p>
+                    <p className="text-lg" style={{ color: '#1d1f2b' }}>Organization / Group</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#938eb8' }}>Date Range</span>
+                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Date Range</span>
                 </div>
                 <p style={{ color: '#1d1f2b' }}>
                   Describe your leadership role, initiatives you led, impact made, and key achievements.
@@ -268,9 +268,9 @@ export default function PersonalWebsite() {
             <a
               href="#"
               className="inline-block text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md"
-              style={{ backgroundColor: '#938eb8' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#938eb8'}
+              style={{ backgroundColor: '#1d1f2b' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#938eb8'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
             >
               Download CV (PDF)
             </a>
@@ -285,14 +285,14 @@ export default function PersonalWebsite() {
             <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#1d1f2b' }}>Get In Touch</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-center gap-4 justify-center">
-                <Mail className="w-6 h-6" style={{ color: '#938eb8' }} />
+                <Mail className="w-6 h-6" style={{ color: '#1d1f2b' }} />
                 <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#1d1f2b' }}
                    onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
                    onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
                   your.email@example.com
                 </a>
               </div>
-              <p className="text-center mt-8" style={{ color: '#938eb8' }}>
+              <p className="text-center mt-8" style={{ color: '#1d1f2b' }}>
                 Feel free to reach out for collaborations, questions, or opportunities.
               </p>
             </div>
@@ -301,8 +301,8 @@ export default function PersonalWebsite() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8" style={{ backgroundColor: '#1d1f2b', borderTop: '1px solid #938eb8' }}>
-        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#f5f4f8' }}>
+      <footer className="py-8" style={{ backgroundColor: '#1d1f2b', borderTop: '1px solid #1d1f2b' }}>
+        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#938eb8' }}>
           <p>© 2024 Your Name. All rights reserved.</p>
         </div>
       </footer>
