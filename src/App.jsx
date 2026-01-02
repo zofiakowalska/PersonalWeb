@@ -103,10 +103,7 @@ export default function PersonalWebsite() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="w-40 h-40 rounded-full flex items-center justify-center text-white text-5xl font-bold mx-auto mb-8 shadow-xl" style={{ background: 'linear-gradient(135deg, #938eb8 0%, #1d1f2b 100%)' }}>
-            YN
-          </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Your Name</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Zofia Kowalska</h1>
           <p className="text-2xl md:text-3xl mb-8" style={{ color: '#1d1f2b' }}>Job Title / Academic Position</p>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: '#1d1f2b' }}>
             Welcome to my personal website. Scroll down to learn more about my background, experience, and work.
@@ -117,7 +114,7 @@ export default function PersonalWebsite() {
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="bg-white rounded-lg shadow-md p-8 md:p-12">
+          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
             <h2 className="text-4xl font-bold mb-8" style={{ color: '#1d1f2b' }}>About Me</h2>
             <div className="prose max-w-none space-y-4 text-lg" style={{ color: '#1d1f2b' }}>
               <p>
@@ -145,7 +142,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="bg-white rounded-lg shadow-md p-8">
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Degree Name</h3>
@@ -168,7 +165,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white rounded-lg shadow-md p-8">
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Position Title</h3>
@@ -190,7 +187,7 @@ export default function PersonalWebsite() {
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Skills</h2>
-          <div className="bg-white rounded-lg shadow-md p-8">
+          <div className="rounded-lg shadow-md p-8" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
@@ -213,7 +210,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="bg-white rounded-lg shadow-md p-8">
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
                 <h3 className="text-xl font-bold mb-2" style={{ color: '#1d1f2b' }}>
                   "Publication Title Goes Here"
                 </h3>
@@ -240,7 +237,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="bg-white rounded-lg shadow-md p-8">
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Leadership Role / Initiative</h3>
@@ -260,7 +257,7 @@ export default function PersonalWebsite() {
       {/* CV Section */}
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="bg-white rounded-lg shadow-md p-8 md:p-12 text-center">
+          <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#1d1f2b' }}>Curriculum Vitae</h2>
             <p className="text-lg mb-8" style={{ color: '#1d1f2b' }}>
               Download my complete CV to view my full academic and professional background.
@@ -281,7 +278,7 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="bg-white rounded-lg shadow-md p-8 md:p-12">
+          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: 'rgba(115, 110, 160, 0.8)' }}>
             <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#1d1f2b' }}>Get In Touch</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-center gap-4 justify-center">
