@@ -51,13 +51,13 @@ export default function PersonalWebsite() {
     <div className="min-h-screen" style={{
       backgroundColor: '#5a4a7a',
       backgroundImage: `
-        radial-gradient(circle at 20% 30%, rgba(140, 125, 180, 0.9) 0%, rgba(140, 125, 180, 0.4) 30%, transparent 60%),
-        radial-gradient(circle at 80% 70%, rgba(100, 85, 140, 0.8) 0%, rgba(100, 85, 140, 0.3) 35%, transparent 65%),
-        radial-gradient(circle at 50% 85%, rgba(90, 75, 120, 0.7) 0%, rgba(90, 75, 120, 0.2) 40%, transparent 70%),
-        radial-gradient(circle at 75% 15%, rgba(150, 135, 190, 0.85) 0%, rgba(150, 135, 190, 0.3) 25%, transparent 55%),
-        radial-gradient(circle at 10% 60%, rgba(80, 65, 110, 0.6) 0%, transparent 50%),
-        radial-gradient(circle at 90% 40%, rgba(120, 105, 160, 0.75) 0%, transparent 45%),
-        linear-gradient(135deg, #4a3a6a 0%, #5a4a7a 20%, #6c5b92 40%, #7a6ba0 50%, #6c5b92 60%, #5a4a7a 80%, #4a3a6a 100%)
+        radial-gradient(circle at 25% 30%, rgba(140, 125, 180, 0.35) 0%, rgba(120, 105, 160, 0.15) 25%, rgba(100, 85, 140, 0.05) 50%, transparent 70%),
+        radial-gradient(circle at 75% 65%, rgba(130, 115, 170, 0.3) 0%, rgba(110, 95, 150, 0.12) 30%, rgba(90, 75, 130, 0.04) 55%, transparent 75%),
+        radial-gradient(circle at 50% 80%, rgba(125, 110, 165, 0.28) 0%, rgba(105, 90, 145, 0.1) 35%, rgba(85, 70, 125, 0.03) 60%, transparent 80%),
+        radial-gradient(circle at 70% 20%, rgba(145, 130, 185, 0.32) 0%, rgba(125, 110, 165, 0.14) 28%, rgba(105, 90, 145, 0.05) 52%, transparent 72%),
+        radial-gradient(circle at 15% 55%, rgba(115, 100, 155, 0.25) 0%, rgba(95, 80, 135, 0.08) 40%, transparent 65%),
+        radial-gradient(circle at 85% 45%, rgba(135, 120, 175, 0.3) 0%, rgba(115, 100, 155, 0.12) 32%, transparent 68%),
+        linear-gradient(135deg, #5a4a7a 0%, #6c5b92 25%, #7a6ba0 50%, #6c5b92 75%, #5a4a7a 100%)
       `,
       backgroundAttachment: 'fixed',
       backgroundSize: '100% 100%'
