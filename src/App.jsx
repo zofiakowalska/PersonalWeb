@@ -259,8 +259,8 @@ export default function PersonalWebsite() {
                   Brief description of the publication and its key findings or contributions.
                 </p>
                 <a href="#" className="font-medium" style={{ color: '#e8e6e3' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
+                   onMouseEnter={(e) => e.currentTarget.style.color = '#c4b5a0'}
+                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8e6e3'}>
                   View Publication →
                 </a>
               </div>
@@ -337,8 +337,8 @@ export default function PersonalWebsite() {
               <div className="flex items-center gap-4 justify-center">
                 <Mail className="w-6 h-6" style={{ color: '#e8e6e3' }} />
                 <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8e6e3' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
+                   onMouseEnter={(e) => e.currentTarget.style.color = '#c4b5a0'}
+                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8e6e3'}>
                   your.email@example.com
                 </a>
               </div>
