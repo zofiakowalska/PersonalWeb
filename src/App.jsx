@@ -75,7 +75,7 @@ export default function PersonalWebsite() {
                   : 'hover:bg-opacity-10'
               }`}
               style={activeSection === section.id 
-                ? { backgroundColor: '#1d1f2b', color: '#ffffff' }
+                ? { backgroundColor: 'rgba(29, 31, 43, 0.5)', color: '#ffffff' }
                 : { color: '#1d1f2b' }
               }
               onMouseEnter={(e) => {
@@ -128,7 +128,7 @@ export default function PersonalWebsite() {
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -161,7 +161,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -189,7 +189,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -216,7 +216,7 @@ export default function PersonalWebsite() {
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
           <div className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -244,7 +244,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -276,7 +276,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -301,7 +301,7 @@ export default function PersonalWebsite() {
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -327,7 +327,7 @@ export default function PersonalWebsite() {
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
-          backgroundColor: '#1d1f2b',
+          backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -351,7 +351,7 @@ export default function PersonalWebsite() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8" style={{ backgroundColor: '#1d1f2b', borderTop: '1px solid #1d1f2b' }}>
+      <footer className="py-8" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', borderTop: '1px solid #1d1f2b' }}>
         <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#938eb8' }}>
           <p>© 2024 Your Name. All rights reserved.</p>
         </div>
