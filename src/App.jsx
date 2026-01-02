@@ -127,8 +127,8 @@ export default function PersonalWebsite() {
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+          <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -161,8 +161,8 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+              <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -190,8 +190,8 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+              <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -218,8 +218,8 @@ export default function PersonalWebsite() {
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Skills</h2>
-          <div className="rounded-lg shadow-md p-8" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+          <div className="rounded-lg shadow-md p-8 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -247,8 +247,8 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+              <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -280,8 +280,8 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+              <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -307,7 +307,7 @@ export default function PersonalWebsite() {
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -333,8 +333,8 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ 
-          backgroundColor: 'rgba(95, 87, 115, 0.15)',
+          <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
+          backgroundColor: 'rgba(95, 87, 115, 0.3)',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
