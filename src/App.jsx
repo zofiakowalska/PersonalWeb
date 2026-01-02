@@ -104,18 +104,18 @@ export default function PersonalWebsite() {
           target="_blank"
           rel="noopener noreferrer"
           className="backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 transition-all flex items-center gap-2 font-medium"
-          style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)', color: '#0077b5' }}
+          style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)', color: '#ffffff' }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.color = '#005885';
             e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.7)';
+            e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.color = '#0077b5';
             e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.5)';
+            e.currentTarget.style.color = '#ffffff';
           }}
           aria-label="LinkedIn"
         >
-          <LinkedInLogo className="w-5 h-5" />
+          <LinkedInLogo className="w-5 h-5" style={{ color: '#ffffff' }} />
           <span className="text-sm font-semibold">LinkedIn</span>
         </a>
       </nav>
