@@ -128,13 +128,13 @@ export default function PersonalWebsite() {
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
         }}>
             <h2 className="text-4xl font-bold mb-8" style={{ color: '#e8e6e3' }}>About Me</h2>
-            <div className="prose max-w-none space-y-4 text-lg" style={{ color: '#e8e6e3' }}>
+            <div className="prose max-w-none space-y-4 text-base" style={{ color: '#b8b5b0', fontSize: '0.95rem' }}>
               <p>
                 Welcome! I'm a [your field] professional with expertise in [key areas]. 
                 My work focuses on [main research/work interests].
@@ -161,7 +161,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -173,7 +173,7 @@ export default function PersonalWebsite() {
                   </div>
                   <span className="font-medium" style={{ color: '#e8e6e3' }}>Graduation Year</span>
                 </div>
-                <p style={{ color: '#e8e6e3' }}>
+                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                   Field of study, thesis title (if applicable), advisor, honors, or other relevant details.
                 </p>
               </div>
@@ -189,7 +189,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -201,7 +201,7 @@ export default function PersonalWebsite() {
                   </div>
                   <span className="font-medium" style={{ color: '#e8e6e3' }}>Start - End Date</span>
                 </div>
-                <p style={{ color: '#e8e6e3' }}>
+                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                   Describe your responsibilities, achievements, and key projects in this role. 
                   Highlight measurable impacts and important contributions.
                 </p>
@@ -216,7 +216,7 @@ export default function PersonalWebsite() {
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
           <div className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -225,7 +225,7 @@ export default function PersonalWebsite() {
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
                   <h3 className="text-xl font-semibold mb-3" style={{ color: '#e8e6e3' }}>{category}</h3>
-                  <ul className="space-y-2" style={{ color: '#e8e6e3' }}>
+                  <ul className="space-y-2" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                     <li>• Skill 1</li>
                     <li>• Skill 2</li>
                     <li>• Skill 3</li>
@@ -244,7 +244,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -252,10 +252,10 @@ export default function PersonalWebsite() {
                 <h3 className="text-xl font-bold mb-2" style={{ color: '#e8e6e3' }}>
                   "Publication Title Goes Here"
                 </h3>
-                <p className="mb-3" style={{ color: '#e8e6e3' }}>
+                <p className="mb-3" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                   Author Names (Year). <em>Journal/Conference Name</em>, Volume(Issue), pages.
                 </p>
-                <p className="mb-4" style={{ color: '#e8e6e3' }}>
+                <p className="mb-4" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                   Brief description of the publication and its key findings or contributions.
                 </p>
                 <a href="#" className="font-medium" style={{ color: '#e8e6e3' }}
@@ -276,7 +276,7 @@ export default function PersonalWebsite() {
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -288,7 +288,7 @@ export default function PersonalWebsite() {
                   </div>
                   <span className="font-medium" style={{ color: '#e8e6e3' }}>Date Range</span>
                 </div>
-                <p style={{ color: '#e8e6e3' }}>
+                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                   Describe your leadership role, initiatives you led, impact made, and key achievements.
                 </p>
               </div>
@@ -301,13 +301,13 @@ export default function PersonalWebsite() {
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
         }}>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#e8e6e3' }}>Curriculum Vitae</h2>
-            <p className="text-lg mb-8" style={{ color: '#e8e6e3' }}>
+            <p className="text-base mb-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
               Download my complete CV to view my full academic and professional background.
             </p>
             <a
@@ -327,7 +327,7 @@ export default function PersonalWebsite() {
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <div className="rounded-lg shadow-md p-8 md:p-12 glass-box" style={{ 
-          backgroundColor: '#4a3f5a',
+          backgroundColor: '#1d1f2b',
           backdropFilter: 'blur(10px)',
           border: '1px solid rgba(255, 255, 255, 0.1)',
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
@@ -342,7 +342,7 @@ export default function PersonalWebsite() {
                   your.email@example.com
                 </a>
               </div>
-              <p className="text-center mt-8" style={{ color: '#e8e6e3' }}>
+              <p className="text-center mt-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                 Feel free to reach out for collaborations, questions, or opportunities.
               </p>
             </div>
