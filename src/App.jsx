@@ -127,7 +127,7 @@ export default function PersonalWebsite() {
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-2xl shadow-md p-8 md:p-12 glass-box" style={{ 
+          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -160,7 +160,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-2xl shadow-md p-8 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -188,7 +188,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-2xl shadow-md p-8 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -215,7 +215,7 @@ export default function PersonalWebsite() {
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
-          <div className="rounded-2xl shadow-md p-8 glass-box" style={{ 
+          <div className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -243,7 +243,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-2xl shadow-md p-8 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -275,7 +275,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-2xl shadow-md p-8 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -326,7 +326,7 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-2xl shadow-md p-8 md:p-12 glass-box" style={{ 
+          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
