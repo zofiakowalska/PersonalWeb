@@ -116,9 +116,9 @@ export default function PersonalWebsite() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Zofia Kowalska</h1>
-          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#1d1f2b' }}>Job Title / Academic Position</p>
-          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#1d1f2b' }}>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#e8e6e3' }}>Zofia Kowalska</h1>
+          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#e8e6e3' }}>Job Title / Academic Position</p>
+          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#e8e6e3' }}>
             Welcome to my personal website. Scroll down to learn more about my background, experience, and work.
           </p>
         </div>
@@ -134,8 +134,8 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
           backgroundImage: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.05) 100%)'
         }}>
-            <h2 className="text-4xl font-bold mb-8" style={{ color: '#1d1f2b' }}>About Me</h2>
-            <div className="prose max-w-none space-y-4 text-lg" style={{ color: '#1d1f2b' }}>
+            <h2 className="text-4xl font-bold mb-8" style={{ color: '#e8e6e3' }}>About Me</h2>
+            <div className="prose max-w-none space-y-4 text-lg" style={{ color: '#e8e6e3' }}>
               <p>
                 Welcome! I'm a [your field] professional with expertise in [key areas]. 
                 My work focuses on [main research/work interests].
@@ -144,7 +144,7 @@ export default function PersonalWebsite() {
                 Replace this text with your professional biography. Include your background, 
                 current role, research interests, and what drives your work.
               </p>
-              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#1d1f2b' }}>Research Interests</h3>
+              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#e8e6e3' }}>Research Interests</h3>
               <ul className="list-disc list-inside space-y-2">
                 <li>Research Area 1</li>
                 <li>Research Area 2</li>
@@ -158,7 +158,7 @@ export default function PersonalWebsite() {
       {/* Education Section */}
       <section id="education" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Education</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
@@ -170,12 +170,12 @@ export default function PersonalWebsite() {
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Degree Name</h3>
-                    <p className="text-lg" style={{ color: '#1d1f2b' }}>University Name</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Degree Name</h3>
+                    <p className="text-lg" style={{ color: '#e8e6e3' }}>University Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Graduation Year</span>
+                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Graduation Year</span>
                 </div>
-                <p style={{ color: '#1d1f2b' }}>
+                <p style={{ color: '#e8e6e3' }}>
                   Field of study, thesis title (if applicable), advisor, honors, or other relevant details.
                 </p>
               </div>
@@ -187,7 +187,7 @@ export default function PersonalWebsite() {
       {/* Experience Section */}
       <section id="experience" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Professional Experience</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
@@ -199,12 +199,12 @@ export default function PersonalWebsite() {
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Position Title</h3>
-                    <p className="text-lg" style={{ color: '#1d1f2b' }}>Organization Name</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Position Title</h3>
+                    <p className="text-lg" style={{ color: '#e8e6e3' }}>Organization Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Start - End Date</span>
+                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Start - End Date</span>
                 </div>
-                <p style={{ color: '#1d1f2b' }}>
+                <p style={{ color: '#e8e6e3' }}>
                   Describe your responsibilities, achievements, and key projects in this role. 
                   Highlight measurable impacts and important contributions.
                 </p>
@@ -217,7 +217,7 @@ export default function PersonalWebsite() {
       {/* Skills Section */}
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Skills</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
           <div className="rounded-lg shadow-md p-8 glass-box" style={{ 
           backgroundColor: 'rgba(95, 87, 115, 1)',
           backdropFilter: 'blur(10px)',
@@ -228,8 +228,8 @@ export default function PersonalWebsite() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
-                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#1d1f2b' }}>{category}</h3>
-                  <ul className="space-y-2" style={{ color: '#1d1f2b' }}>
+                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#e8e6e3' }}>{category}</h3>
+                  <ul className="space-y-2" style={{ color: '#e8e6e3' }}>
                     <li>• Skill 1</li>
                     <li>• Skill 2</li>
                     <li>• Skill 3</li>
@@ -244,7 +244,7 @@ export default function PersonalWebsite() {
       {/* Academic Works Section */}
       <section id="academic-works" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Academic Works</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
@@ -254,16 +254,16 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
           backgroundImage: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.05) 100%)'
         }}>
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#1d1f2b' }}>
+                <h3 className="text-xl font-bold mb-2" style={{ color: '#e8e6e3' }}>
                   "Publication Title Goes Here"
                 </h3>
-                <p className="mb-3" style={{ color: '#1d1f2b' }}>
+                <p className="mb-3" style={{ color: '#e8e6e3' }}>
                   Author Names (Year). <em>Journal/Conference Name</em>, Volume(Issue), pages.
                 </p>
-                <p className="mb-4" style={{ color: '#1d1f2b' }}>
+                <p className="mb-4" style={{ color: '#e8e6e3' }}>
                   Brief description of the publication and its key findings or contributions.
                 </p>
-                <a href="#" className="font-medium" style={{ color: '#1d1f2b' }}
+                <a href="#" className="font-medium" style={{ color: '#e8e6e3' }}
                    onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
                    onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
                   View Publication →
@@ -277,7 +277,7 @@ export default function PersonalWebsite() {
       {/* Leadership Initiatives Section */}
       <section id="leadership" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Leadership Initiatives</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-lg shadow-md p-8 glass-box" style={{ 
@@ -289,12 +289,12 @@ export default function PersonalWebsite() {
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Leadership Role / Initiative</h3>
-                    <p className="text-lg" style={{ color: '#1d1f2b' }}>Organization / Group</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Leadership Role / Initiative</h3>
+                    <p className="text-lg" style={{ color: '#e8e6e3' }}>Organization / Group</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#1d1f2b' }}>Date Range</span>
+                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Date Range</span>
                 </div>
-                <p style={{ color: '#1d1f2b' }}>
+                <p style={{ color: '#e8e6e3' }}>
                   Describe your leadership role, initiatives you led, impact made, and key achievements.
                 </p>
               </div>
@@ -313,8 +313,8 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
           backgroundImage: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.05) 100%)'
         }}>
-            <h2 className="text-4xl font-bold mb-6" style={{ color: '#1d1f2b' }}>Curriculum Vitae</h2>
-            <p className="text-lg mb-8" style={{ color: '#1d1f2b' }}>
+            <h2 className="text-4xl font-bold mb-6" style={{ color: '#e8e6e3' }}>Curriculum Vitae</h2>
+            <p className="text-lg mb-8" style={{ color: '#e8e6e3' }}>
               Download my complete CV to view my full academic and professional background.
             </p>
             <a
@@ -340,17 +340,17 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
           backgroundImage: 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(0, 0, 0, 0.05) 100%)'
         }}>
-            <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#1d1f2b' }}>Get In Touch</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#e8e6e3' }}>Get In Touch</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-center gap-4 justify-center">
-                <Mail className="w-6 h-6" style={{ color: '#1d1f2b' }} />
-                <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#1d1f2b' }}
+                <Mail className="w-6 h-6" style={{ color: '#e8e6e3' }} />
+                <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8e6e3' }}
                    onMouseEnter={(e) => e.currentTarget.style.color = '#938eb8'}
                    onMouseLeave={(e) => e.currentTarget.style.color = '#1d1f2b'}>
                   your.email@example.com
                 </a>
               </div>
-              <p className="text-center mt-8" style={{ color: '#1d1f2b' }}>
+              <p className="text-center mt-8" style={{ color: '#e8e6e3' }}>
                 Feel free to reach out for collaborations, questions, or opportunities.
               </p>
             </div>
