@@ -49,13 +49,16 @@ export default function PersonalWebsite() {
 
   return (
     <div className="min-h-screen" style={{
-      background: `
-        radial-gradient(circle at 20% 30%, rgba(90, 75, 110, 0.4) 0%, transparent 50%),
-        radial-gradient(circle at 80% 70%, rgba(70, 60, 95, 0.3) 0%, transparent 50%),
-        radial-gradient(circle at 50% 50%, rgba(100, 85, 120, 0.2) 0%, transparent 70%),
-        linear-gradient(135deg, #2a2538 0%, #3a2f4a 25%, #4a3f5a 50%, #3a2f4a 75%, #2a2538 100%)
+      backgroundColor: '#938eb8',
+      backgroundImage: `
+        radial-gradient(circle at 25% 25%, rgba(147, 142, 184, 0.8) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(147, 142, 184, 0.6) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(115, 110, 160, 0.3) 0%, transparent 60%),
+        repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(147, 142, 184, 0.05) 2px, rgba(147, 142, 184, 0.05) 4px),
+        repeating-linear-gradient(-45deg, transparent, transparent 2px, rgba(115, 110, 160, 0.03) 2px, rgba(115, 110, 160, 0.03) 4px)
       `,
-      backgroundAttachment: 'fixed'
+      backgroundAttachment: 'fixed',
+      backgroundSize: '100% 100%, 100% 100%, 100% 100%, 20px 20px, 20px 20px'
     }}>
       {/* Floating Navigation */}
       <nav className="fixed top-6 left-6 z-50 flex items-center gap-4">
@@ -122,7 +125,7 @@ export default function PersonalWebsite() {
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: '#938eb8' }}>
+          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: '#715ca3' }}>
             <h2 className="text-4xl font-bold mb-8" style={{ color: '#1d1f2b' }}>About Me</h2>
             <div className="prose max-w-none space-y-4 text-lg" style={{ color: '#1d1f2b' }}>
               <p>
@@ -150,7 +153,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#938eb8' }}>
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#715ca3' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Degree Name</h3>
@@ -173,7 +176,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#938eb8' }}>
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#715ca3' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Position Title</h3>
@@ -195,7 +198,7 @@ export default function PersonalWebsite() {
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Skills</h2>
-          <div className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#938eb8' }}>
+          <div className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#715ca3' }}>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
@@ -218,7 +221,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#938eb8' }}>
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#715ca3' }}>
                 <h3 className="text-xl font-bold mb-2" style={{ color: '#1d1f2b' }}>
                   "Publication Title Goes Here"
                 </h3>
@@ -245,7 +248,7 @@ export default function PersonalWebsite() {
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#1d1f2b' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#938eb8' }}>
+              <div key={i} className="rounded-lg shadow-md p-8" style={{ backgroundColor: '#715ca3' }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
                     <h3 className="text-2xl font-bold" style={{ color: '#1d1f2b' }}>Leadership Role / Initiative</h3>
@@ -265,7 +268,7 @@ export default function PersonalWebsite() {
       {/* CV Section */}
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ backgroundColor: '#938eb8' }}>
+          <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ backgroundColor: '#715ca3' }}>
             <h2 className="text-4xl font-bold mb-6" style={{ color: '#1d1f2b' }}>Curriculum Vitae</h2>
             <p className="text-lg mb-8" style={{ color: '#1d1f2b' }}>
               Download my complete CV to view my full academic and professional background.
@@ -286,7 +289,7 @@ export default function PersonalWebsite() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: '#938eb8' }}>
+          <div className="rounded-lg shadow-md p-8 md:p-12" style={{ backgroundColor: '#715ca3' }}>
             <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#1d1f2b' }}>Get In Touch</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-center gap-4 justify-center">
