@@ -51,12 +51,16 @@ export default function PersonalWebsite() {
     <div className="min-h-screen" style={{
       backgroundColor: '#5a4a7a',
       backgroundImage: `
-        radial-gradient(circle at 25% 30%, rgba(140, 125, 180, 0.35) 0%, rgba(120, 105, 160, 0.15) 25%, rgba(100, 85, 140, 0.05) 50%, transparent 70%),
-        radial-gradient(circle at 75% 65%, rgba(130, 115, 170, 0.3) 0%, rgba(110, 95, 150, 0.12) 30%, rgba(90, 75, 130, 0.04) 55%, transparent 75%),
-        radial-gradient(circle at 50% 80%, rgba(125, 110, 165, 0.28) 0%, rgba(105, 90, 145, 0.1) 35%, rgba(85, 70, 125, 0.03) 60%, transparent 80%),
-        radial-gradient(circle at 70% 20%, rgba(145, 130, 185, 0.32) 0%, rgba(125, 110, 165, 0.14) 28%, rgba(105, 90, 145, 0.05) 52%, transparent 72%),
-        radial-gradient(circle at 15% 55%, rgba(115, 100, 155, 0.25) 0%, rgba(95, 80, 135, 0.08) 40%, transparent 65%),
-        radial-gradient(circle at 85% 45%, rgba(135, 120, 175, 0.3) 0%, rgba(115, 100, 155, 0.12) 32%, transparent 68%),
+        radial-gradient(circle at 20% 25%, rgba(150, 135, 190, 0.4) 0%, rgba(130, 115, 170, 0.2) 25%, rgba(110, 95, 150, 0.08) 45%, transparent 65%),
+        radial-gradient(circle at 80% 70%, rgba(140, 125, 180, 0.35) 0%, rgba(120, 105, 160, 0.15) 30%, rgba(100, 85, 140, 0.06) 50%, transparent 70%),
+        radial-gradient(circle at 45% 85%, rgba(135, 120, 175, 0.3) 0%, rgba(115, 100, 155, 0.12) 35%, rgba(95, 80, 135, 0.04) 55%, transparent 75%),
+        radial-gradient(circle at 70% 15%, rgba(155, 140, 195, 0.38) 0%, rgba(135, 120, 175, 0.18) 28%, rgba(115, 100, 155, 0.07) 48%, transparent 68%),
+        radial-gradient(circle at 10% 60%, rgba(125, 110, 165, 0.32) 0%, rgba(105, 90, 145, 0.14) 38%, rgba(85, 70, 125, 0.05) 58%, transparent 72%),
+        radial-gradient(circle at 90% 40%, rgba(145, 130, 185, 0.36) 0%, rgba(125, 110, 165, 0.16) 32%, rgba(105, 90, 145, 0.06) 52%, transparent 70%),
+        radial-gradient(circle at 30% 50%, rgba(130, 115, 170, 0.28) 0%, rgba(110, 95, 150, 0.1) 40%, transparent 65%),
+        radial-gradient(circle at 65% 75%, rgba(140, 125, 180, 0.3) 0%, rgba(120, 105, 160, 0.12) 35%, transparent 68%),
+        radial-gradient(circle at 15% 80%, rgba(120, 105, 160, 0.25) 0%, rgba(100, 85, 140, 0.08) 42%, transparent 70%),
+        radial-gradient(circle at 85% 20%, rgba(150, 135, 190, 0.33) 0%, rgba(130, 115, 170, 0.13) 36%, transparent 66%),
         linear-gradient(135deg, #5a4a7a 0%, #6c5b92 25%, #7a6ba0 50%, #6c5b92 75%, #5a4a7a 100%)
       `,
       backgroundAttachment: 'fixed',
@@ -126,8 +130,8 @@ export default function PersonalWebsite() {
 
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ 
+        <div className="max-w-4xl mx-auto w-full px-8">
+          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ minHeight: '280px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -156,11 +160,11 @@ export default function PersonalWebsite() {
 
       {/* Education Section */}
       <section id="education" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -184,11 +188,11 @@ export default function PersonalWebsite() {
 
       {/* Experience Section */}
       <section id="experience" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -213,7 +217,7 @@ export default function PersonalWebsite() {
 
       {/* Skills Section */}
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
           <div className="rounded-3xl shadow-md p-6 glass-box" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
@@ -239,11 +243,11 @@ export default function PersonalWebsite() {
 
       {/* Academic Works Section */}
       <section id="academic-works" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
-              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -271,11 +275,11 @@ export default function PersonalWebsite() {
 
       {/* Leadership Initiatives Section */}
       <section id="leadership" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
-              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ 
+              <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -299,7 +303,7 @@ export default function PersonalWebsite() {
 
       {/* CV Section */}
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full px-8">
           <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
@@ -325,8 +329,8 @@ export default function PersonalWebsite() {
 
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-6xl mx-auto w-full">
-          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ 
+        <div className="max-w-4xl mx-auto w-full px-8">
+          <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ minHeight: '280px', 
           backgroundColor: 'rgba(29, 31, 43, 0.5)',
           backdropFilter: 'blur(16px)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
