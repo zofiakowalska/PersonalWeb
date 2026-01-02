@@ -71,7 +71,7 @@ export default function PersonalWebsite() {
     }}>
       {/* Floating Navigation */}
       <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-3">
-        <div className="backdrop-blur-md rounded-full shadow-lg px-3 py-2 flex items-center gap-1" style={{ backgroundColor: '#1d1f2b', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
+        <div className="backdrop-blur-md rounded-full shadow-lg px-3 py-2 flex items-center gap-1" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
           {sections.map((section) => (
             <button
               key={section.id}
@@ -104,14 +104,14 @@ export default function PersonalWebsite() {
           target="_blank"
           rel="noopener noreferrer"
           className="backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 transition-all flex items-center gap-2 font-medium"
-          style={{ backgroundColor: '#1d1f2b', border: '1px solid rgba(255, 255, 255, 0.1)', color: '#0077b5' }}
+          style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)', color: '#0077b5' }}
           onMouseEnter={(e) => {
             e.currentTarget.style.color = '#005885';
-            e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
+            e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.7)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.color = '#0077b5';
-            e.currentTarget.style.backgroundColor = '#1d1f2b';
+            e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.5)';
           }}
           aria-label="LinkedIn"
         >
