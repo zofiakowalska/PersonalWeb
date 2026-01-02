@@ -70,34 +70,32 @@ export default function PersonalWebsite() {
       backgroundSize: '100% 100%'
     }}>
       {/* Floating Navigation */}
-      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-4">
-        <div className="backdrop-blur-md rounded-full shadow-lg px-2 py-2 flex items-center gap-1" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+      <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-3">
+        <div className="backdrop-blur-md rounded-full shadow-lg px-3 py-2 flex items-center gap-1" style={{ backgroundColor: '#1d1f2b', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                activeSection === section.id
-                  ? 'text-white shadow-md'
-                  : 'hover:bg-opacity-10'
-              }`}
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap"
               style={activeSection === section.id 
-                ? { backgroundColor: 'rgba(29, 31, 43, 0.5)', color: '#ffffff' }
-                : { color: '#1d1f2b' }
+                ? { backgroundColor: 'rgba(0, 0, 0, 0.4)', color: '#e8e6e3' }
+                : { color: '#b8b5b0' }
               }
               onMouseEnter={(e) => {
                 if (activeSection !== section.id) {
-                  e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.1)';
+                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
+                  e.currentTarget.style.color = '#e8e6e3';
                 }
               }}
               onMouseLeave={(e) => {
                 if (activeSection !== section.id) {
                   e.currentTarget.style.backgroundColor = 'transparent';
+                  e.currentTarget.style.color = '#b8b5b0';
                 }
               }}
             >
               {section.icon}
-              <span className="hidden sm:inline">{section.title}</span>
+              <span>{section.title}</span>
             </button>
           ))}
         </div>
@@ -105,13 +103,15 @@ export default function PersonalWebsite() {
           href="https://www.linkedin.com/in/zofia-kowalska-50944a222"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-white/90 backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 hover:bg-white transition-all flex items-center gap-2 font-medium"
-          style={{ border: '1px solid #1d1f2b', color: '#0077b5' }}
+          className="backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 transition-all flex items-center gap-2 font-medium"
+          style={{ backgroundColor: '#1d1f2b', border: '1px solid rgba(255, 255, 255, 0.1)', color: '#0077b5' }}
           onMouseEnter={(e) => {
             e.currentTarget.style.color = '#005885';
+            e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.color = '#0077b5';
+            e.currentTarget.style.backgroundColor = '#1d1f2b';
           }}
           aria-label="LinkedIn"
         >
