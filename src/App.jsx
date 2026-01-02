@@ -117,8 +117,8 @@ export default function PersonalWebsite() {
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Zofia Kowalska</h1>
-          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#e8e6e3' }}>Job Title / Academic Position</p>
-          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#e8e6e3' }}>
+          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#1d1f2b' }}>Job Title / Academic Position</p>
+          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#1d1f2b' }}>
             Welcome to my personal website. Scroll down to learn more about my background, experience, and work.
           </p>
         </div>
