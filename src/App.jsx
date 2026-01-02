@@ -134,7 +134,7 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)',
         }}>
             <h2 className="text-4xl font-bold mb-8" style={{ color: '#e8e6e3' }}>About Me</h2>
-            <div className="prose max-w-none space-y-4 text-base" style={{ color: '#b8b5b0', fontSize: '0.95rem' }}>
+            <div className="prose max-w-none space-y-4 text-base" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
               <p>
                 Welcome! I'm a [your field] professional with expertise in [key areas]. 
                 My work focuses on [main research/work interests].
@@ -144,7 +144,7 @@ export default function PersonalWebsite() {
                 current role, research interests, and what drives your work.
               </p>
               <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#e8e6e3' }}>Research Interests</h3>
-              <ul className="list-disc list-inside space-y-2">
+              <ul className="list-disc list-inside space-y-2" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                 <li>Research Area 1</li>
                 <li>Research Area 2</li>
                 <li>Research Area 3</li>
