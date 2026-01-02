@@ -314,7 +314,7 @@ export default function PersonalWebsite() {
               href="#"
               className="inline-block text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md"
               style={{ backgroundColor: '#1d1f2b' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#938eb8'}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#6c5b92'}
               onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
             >
               Download CV (PDF)
