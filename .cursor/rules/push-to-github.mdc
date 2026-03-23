@@ -1,0 +1,13 @@
+---
+description: Always push committed changes to GitHub after making edits
+alwaysApply: true
+---
+
+# Push to GitHub
+
+After making and committing changes to this project, **always push to GitHub**:
+
+1. Stage and commit changes: `git add` and `git commit -m "message"`
+2. Push to GitHub: `git push`
+
+If the first push fails due to authentication, retry once—credentials may need to be resolved by the user. Inform the user if push still fails and they need to push manually from their terminal.

@@ -49,22 +49,22 @@ export default function PersonalWebsite() {
 
   return (
     <div className="min-h-screen" style={{
-      backgroundColor: '#6b5c00',
+      backgroundColor: '#5a4a7a',
       backgroundImage: `
-        radial-gradient(ellipse 120% 80% at 15% 20%, rgba(200, 180, 80, 0.45) 0%, rgba(180, 160, 40, 0.25) 20%, rgba(160, 140, 20, 0.1) 40%, transparent 60%),
-        radial-gradient(ellipse 100% 70% at 25% 30%, rgba(195, 175, 75, 0.42) 0%, rgba(175, 155, 35, 0.22) 18%, rgba(155, 135, 15, 0.08) 38%, transparent 58%),
-        radial-gradient(ellipse 110% 75% at 10% 15%, rgba(205, 185, 85, 0.4) 0%, rgba(185, 165, 45, 0.2) 22%, rgba(165, 145, 25, 0.09) 42%, transparent 62%),
-        radial-gradient(ellipse 95% 65% at 20% 25%, rgba(190, 170, 70, 0.38) 0%, rgba(170, 150, 30, 0.18) 25%, rgba(150, 130, 10, 0.07) 45%, transparent 65%),
-        radial-gradient(ellipse 105% 72% at 12% 35%, rgba(192, 172, 72, 0.41) 0%, rgba(172, 152, 32, 0.21) 19%, rgba(152, 132, 12, 0.08) 39%, transparent 59%),
-        radial-gradient(ellipse 85% 55% at 30% 50%, rgba(185, 165, 65, 0.32) 0%, rgba(165, 145, 25, 0.14) 28%, rgba(145, 125, 5, 0.05) 48%, transparent 68%),
-        radial-gradient(ellipse 70% 50% at 50% 60%, rgba(180, 160, 60, 0.28) 0%, rgba(160, 140, 20, 0.12) 32%, rgba(140, 120, 0, 0.04) 52%, transparent 72%),
-        radial-gradient(ellipse 60% 45% at 70% 75%, rgba(175, 155, 55, 0.24) 0%, rgba(155, 135, 15, 0.1) 35%, rgba(135, 115, 0, 0.03) 55%, transparent 75%),
-        radial-gradient(ellipse 55% 40% at 80% 80%, rgba(170, 150, 50, 0.22) 0%, rgba(150, 130, 10, 0.09) 38%, rgba(130, 110, 0, 0.02) 58%, transparent 78%),
-        radial-gradient(ellipse 50% 38% at 85% 85%, rgba(165, 145, 45, 0.2) 0%, rgba(145, 125, 5, 0.08) 40%, rgba(125, 105, 0, 0.02) 60%, transparent 80%),
-        radial-gradient(ellipse 65% 48% at 75% 70%, rgba(177, 157, 52, 0.26) 0%, rgba(157, 137, 12, 0.11) 33%, rgba(137, 117, 0, 0.03) 53%, transparent 73%),
-        radial-gradient(ellipse 58% 42% at 88% 78%, rgba(172, 152, 47, 0.23) 0%, rgba(152, 132, 7, 0.09) 36%, rgba(132, 112, 0, 0.02) 56%, transparent 76%),
-        radial-gradient(ellipse 45% 35% at 92% 88%, rgba(163, 143, 43, 0.18) 0%, rgba(143, 123, 3, 0.07) 42%, rgba(123, 103, 0, 0.01) 62%, transparent 82%),
-        linear-gradient(135deg, #6b5c00 0%, #7a6b00 25%, #8b7c00 50%, #7a6b00 75%, #6b5c00 100%)
+        radial-gradient(ellipse 120% 80% at 15% 20%, rgba(155, 140, 195, 0.45) 0%, rgba(135, 120, 175, 0.25) 20%, rgba(115, 100, 155, 0.1) 40%, transparent 60%),
+        radial-gradient(ellipse 100% 70% at 25% 30%, rgba(150, 135, 190, 0.42) 0%, rgba(130, 115, 170, 0.22) 18%, rgba(110, 95, 150, 0.08) 38%, transparent 58%),
+        radial-gradient(ellipse 110% 75% at 10% 15%, rgba(160, 145, 200, 0.4) 0%, rgba(140, 125, 180, 0.2) 22%, rgba(120, 105, 160, 0.09) 42%, transparent 62%),
+        radial-gradient(ellipse 95% 65% at 20% 25%, rgba(145, 130, 185, 0.38) 0%, rgba(125, 110, 165, 0.18) 25%, rgba(105, 90, 145, 0.07) 45%, transparent 65%),
+        radial-gradient(ellipse 105% 72% at 12% 35%, rgba(148, 133, 188, 0.41) 0%, rgba(128, 113, 168, 0.21) 19%, rgba(108, 93, 148, 0.08) 39%, transparent 59%),
+        radial-gradient(ellipse 85% 55% at 30% 50%, rgba(140, 125, 180, 0.32) 0%, rgba(120, 105, 160, 0.14) 28%, rgba(100, 85, 140, 0.05) 48%, transparent 68%),
+        radial-gradient(ellipse 70% 50% at 50% 60%, rgba(135, 120, 175, 0.28) 0%, rgba(115, 100, 155, 0.12) 32%, rgba(95, 80, 135, 0.04) 52%, transparent 72%),
+        radial-gradient(ellipse 60% 45% at 70% 75%, rgba(130, 115, 170, 0.24) 0%, rgba(110, 95, 150, 0.1) 35%, rgba(90, 75, 130, 0.03) 55%, transparent 75%),
+        radial-gradient(ellipse 55% 40% at 80% 80%, rgba(125, 110, 165, 0.22) 0%, rgba(105, 90, 145, 0.09) 38%, rgba(85, 70, 125, 0.02) 58%, transparent 78%),
+        radial-gradient(ellipse 50% 38% at 85% 85%, rgba(120, 105, 160, 0.2) 0%, rgba(100, 85, 140, 0.08) 40%, rgba(80, 65, 120, 0.02) 60%, transparent 80%),
+        radial-gradient(ellipse 65% 48% at 75% 70%, rgba(132, 117, 172, 0.26) 0%, rgba(112, 97, 152, 0.11) 33%, rgba(92, 77, 132, 0.03) 53%, transparent 73%),
+        radial-gradient(ellipse 58% 42% at 88% 78%, rgba(127, 112, 167, 0.23) 0%, rgba(107, 92, 147, 0.09) 36%, rgba(87, 72, 127, 0.02) 56%, transparent 76%),
+        radial-gradient(ellipse 45% 35% at 92% 88%, rgba(118, 103, 158, 0.18) 0%, rgba(98, 83, 138, 0.07) 42%, rgba(78, 63, 118, 0.01) 62%, transparent 82%),
+        linear-gradient(135deg, #5a4a7a 0%, #6c5b92 25%, #7a6ba0 50%, #6c5b92 75%, #5a4a7a 100%)
       `,
       backgroundAttachment: 'fixed',
       backgroundSize: '100% 100%'
@@ -321,7 +321,7 @@ export default function PersonalWebsite() {
               href="#"
               className="inline-block text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md"
               style={{ backgroundColor: '#1d1f2b' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#8b7c00'}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#6c5b92'}
               onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
             >
               Download CV (PDF)
@@ -359,7 +359,7 @@ export default function PersonalWebsite() {
 
       {/* Footer */}
       <footer className="py-8" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', borderTop: '1px solid #1d1f2b' }}>
-        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#b8a84a' }}>
+        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#938eb8' }}>
           <p>© 2024 Your Name. All rights reserved.</p>
         </div>
       </footer>
