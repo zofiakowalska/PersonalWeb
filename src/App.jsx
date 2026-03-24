@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, User, GraduationCap, Briefcase, Code, BookOpen, Award, FileText, Mail } from 'lucide-react';
+import { Home, User, Briefcase, Mail } from 'lucide-react';
 
 // LinkedIn Logo SVG Component
 const LinkedInLogo = ({ className }) => (
@@ -14,25 +14,24 @@ export default function PersonalWebsite() {
   const sections = [
     { id: 'home', title: 'Home', icon: <Home className="w-4 h-4" /> },
     { id: 'about', title: 'About', icon: <User className="w-4 h-4" /> },
-    { id: 'education', title: 'Education', icon: <GraduationCap className="w-4 h-4" /> },
-    { id: 'experience', title: 'Experience', icon: <Briefcase className="w-4 h-4" /> },
-    { id: 'skills', title: 'Skills', icon: <Code className="w-4 h-4" /> },
-    { id: 'academic-works', title: 'Academic Works', icon: <BookOpen className="w-4 h-4" /> },
-    { id: 'leadership', title: 'Leadership Initiatives', icon: <Award className="w-4 h-4" /> },
-    { id: 'cv', title: 'CV', icon: <FileText className="w-4 h-4" /> },
+    { id: 'work', title: 'Work', icon: <Briefcase className="w-4 h-4" /> },
     { id: 'contact', title: 'Contact', icon: <Mail className="w-4 h-4" /> }
   ];
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
+      const contactEl = document.getElementById('contact');
+      const educationEl = document.getElementById('education');
 
-      for (let i = sections.length - 1; i >= 0; i--) {
-        const section = document.getElementById(sections[i].id);
-        if (section && section.offsetTop <= scrollPosition) {
-          setActiveSection(sections[i].id);
-          break;
-        }
+      if (contactEl && scrollPosition >= contactEl.offsetTop) {
+        setActiveSection('contact');
+      } else if (educationEl && scrollPosition >= educationEl.offsetTop) {
+        setActiveSection('work');
+      } else if (document.getElementById('about')?.offsetTop <= scrollPosition) {
+        setActiveSection('about');
+      } else {
+        setActiveSection('home');
       }
     };
 
@@ -41,6 +40,11 @@ export default function PersonalWebsite() {
   }, []);
 
   const scrollToSection = (sectionId) => {
+    if (sectionId === 'work') {
+      const firstWork = document.getElementById('education');
+      if (firstWork) firstWork.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -304,33 +308,7 @@ export default function PersonalWebsite() {
         </div>
       </section>
 
-      {/* CV Section */}
-      <section id="cv" className="min-h-screen flex items-center px-6 py-20">
-        <div className="max-w-5xl mx-auto w-full px-8">
-          <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
-          backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
-        }}>
-            <h2 className="text-4xl font-bold mb-6" style={{ color: '#e8e6e3' }}>Curriculum Vitae</h2>
-            <p className="text-base mb-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
-              Download my complete CV to view my full academic and professional background.
-            </p>
-            <a
-              href="#"
-              className="inline-block text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md"
-              style={{ backgroundColor: '#1d1f2b' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#6c5b92'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
-            >
-              Download CV (PDF)
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Section */}
+      {/* Contact Section (includes CV) */}
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
           <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ minHeight: '280px', 
@@ -340,16 +318,27 @@ export default function PersonalWebsite() {
           boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
             <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#e8e6e3' }}>Get In Touch</h2>
-            <div className="max-w-2xl mx-auto space-y-6">
-              <div className="flex items-center gap-4 justify-center">
-                <Mail className="w-6 h-6" style={{ color: '#e8e6e3' }} />
-                <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8e6e3' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#c4b5a0'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8e6e3'}>
-                  your.email@example.com
+            <div className="max-w-2xl mx-auto space-y-8">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <div className="flex items-center gap-4">
+                  <Mail className="w-6 h-6" style={{ color: '#e8e6e3' }} />
+                  <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8e6e3' }}
+                     onMouseEnter={(e) => { e.currentTarget.style.color = '#c4b5a0'; }}
+                     onMouseLeave={(e) => { e.currentTarget.style.color = '#e8e6e3'; }}>
+                    your.email@example.com
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  className="inline-block text-white px-6 py-2.5 rounded-lg font-semibold transition-colors shadow-md"
+                  style={{ backgroundColor: '#1d1f2b' }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#6c5b92'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#1d1f2b'; }}
+                >
+                  Download CV (PDF)
                 </a>
               </div>
-              <p className="text-center mt-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+              <p className="text-center" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
                 Feel free to reach out for collaborations, questions, or opportunities.
               </p>
             </div>
