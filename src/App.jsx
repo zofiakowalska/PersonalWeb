@@ -49,48 +49,48 @@ export default function PersonalWebsite() {
 
   return (
     <div className="min-h-screen" style={{
-      backgroundColor: '#5a4a7a',
+      backgroundColor: '#1a2744',
       backgroundImage: `
-        radial-gradient(ellipse 120% 80% at 15% 20%, rgba(155, 140, 195, 0.45) 0%, rgba(135, 120, 175, 0.25) 20%, rgba(115, 100, 155, 0.1) 40%, transparent 60%),
-        radial-gradient(ellipse 100% 70% at 25% 30%, rgba(150, 135, 190, 0.42) 0%, rgba(130, 115, 170, 0.22) 18%, rgba(110, 95, 150, 0.08) 38%, transparent 58%),
-        radial-gradient(ellipse 110% 75% at 10% 15%, rgba(160, 145, 200, 0.4) 0%, rgba(140, 125, 180, 0.2) 22%, rgba(120, 105, 160, 0.09) 42%, transparent 62%),
-        radial-gradient(ellipse 95% 65% at 20% 25%, rgba(145, 130, 185, 0.38) 0%, rgba(125, 110, 165, 0.18) 25%, rgba(105, 90, 145, 0.07) 45%, transparent 65%),
-        radial-gradient(ellipse 105% 72% at 12% 35%, rgba(148, 133, 188, 0.41) 0%, rgba(128, 113, 168, 0.21) 19%, rgba(108, 93, 148, 0.08) 39%, transparent 59%),
-        radial-gradient(ellipse 85% 55% at 30% 50%, rgba(140, 125, 180, 0.32) 0%, rgba(120, 105, 160, 0.14) 28%, rgba(100, 85, 140, 0.05) 48%, transparent 68%),
-        radial-gradient(ellipse 70% 50% at 50% 60%, rgba(135, 120, 175, 0.28) 0%, rgba(115, 100, 155, 0.12) 32%, rgba(95, 80, 135, 0.04) 52%, transparent 72%),
-        radial-gradient(ellipse 60% 45% at 70% 75%, rgba(130, 115, 170, 0.24) 0%, rgba(110, 95, 150, 0.1) 35%, rgba(90, 75, 130, 0.03) 55%, transparent 75%),
-        radial-gradient(ellipse 55% 40% at 80% 80%, rgba(125, 110, 165, 0.22) 0%, rgba(105, 90, 145, 0.09) 38%, rgba(85, 70, 125, 0.02) 58%, transparent 78%),
-        radial-gradient(ellipse 50% 38% at 85% 85%, rgba(120, 105, 160, 0.2) 0%, rgba(100, 85, 140, 0.08) 40%, rgba(80, 65, 120, 0.02) 60%, transparent 80%),
-        radial-gradient(ellipse 65% 48% at 75% 70%, rgba(132, 117, 172, 0.26) 0%, rgba(112, 97, 152, 0.11) 33%, rgba(92, 77, 132, 0.03) 53%, transparent 73%),
-        radial-gradient(ellipse 58% 42% at 88% 78%, rgba(127, 112, 167, 0.23) 0%, rgba(107, 92, 147, 0.09) 36%, rgba(87, 72, 127, 0.02) 56%, transparent 76%),
-        radial-gradient(ellipse 45% 35% at 92% 88%, rgba(118, 103, 158, 0.18) 0%, rgba(98, 83, 138, 0.07) 42%, rgba(78, 63, 118, 0.01) 62%, transparent 82%),
-        linear-gradient(135deg, #5a4a7a 0%, #6c5b92 25%, #7a6ba0 50%, #6c5b92 75%, #5a4a7a 100%)
+        radial-gradient(ellipse 120% 80% at 15% 20%, rgba(70, 110, 180, 0.45) 0%, rgba(60, 95, 160, 0.25) 20%, rgba(50, 80, 140, 0.1) 40%, transparent 60%),
+        radial-gradient(ellipse 100% 70% at 25% 30%, rgba(75, 115, 185, 0.42) 0%, rgba(65, 100, 165, 0.22) 18%, rgba(55, 85, 145, 0.08) 38%, transparent 58%),
+        radial-gradient(ellipse 110% 75% at 10% 15%, rgba(80, 120, 190, 0.4) 0%, rgba(70, 105, 170, 0.2) 22%, rgba(60, 90, 150, 0.09) 42%, transparent 62%),
+        radial-gradient(ellipse 95% 65% at 20% 25%, rgba(72, 112, 182, 0.38) 0%, rgba(62, 97, 162, 0.18) 25%, rgba(52, 82, 142, 0.07) 45%, transparent 65%),
+        radial-gradient(ellipse 105% 72% at 12% 35%, rgba(74, 114, 184, 0.41) 0%, rgba(64, 99, 164, 0.21) 19%, rgba(54, 84, 144, 0.08) 39%, transparent 59%),
+        radial-gradient(ellipse 85% 55% at 30% 50%, rgba(68, 108, 178, 0.32) 0%, rgba(58, 93, 158, 0.14) 28%, rgba(48, 78, 138, 0.05) 48%, transparent 68%),
+        radial-gradient(ellipse 70% 50% at 50% 60%, rgba(66, 106, 176, 0.28) 0%, rgba(56, 91, 156, 0.12) 32%, rgba(46, 76, 136, 0.04) 52%, transparent 72%),
+        radial-gradient(ellipse 60% 45% at 70% 75%, rgba(64, 104, 174, 0.24) 0%, rgba(54, 89, 154, 0.1) 35%, rgba(44, 74, 134, 0.03) 55%, transparent 75%),
+        radial-gradient(ellipse 55% 40% at 80% 80%, rgba(62, 102, 172, 0.22) 0%, rgba(52, 87, 152, 0.09) 38%, rgba(42, 72, 132, 0.02) 58%, transparent 78%),
+        radial-gradient(ellipse 50% 38% at 85% 85%, rgba(60, 100, 170, 0.2) 0%, rgba(50, 85, 150, 0.08) 40%, rgba(40, 70, 130, 0.02) 60%, transparent 80%),
+        radial-gradient(ellipse 65% 48% at 75% 70%, rgba(65, 105, 175, 0.26) 0%, rgba(55, 90, 155, 0.11) 33%, rgba(45, 75, 135, 0.03) 53%, transparent 73%),
+        radial-gradient(ellipse 58% 42% at 88% 78%, rgba(63, 103, 173, 0.23) 0%, rgba(53, 88, 153, 0.09) 36%, rgba(43, 73, 133, 0.02) 56%, transparent 76%),
+        radial-gradient(ellipse 45% 35% at 92% 88%, rgba(58, 98, 168, 0.18) 0%, rgba(48, 83, 148, 0.07) 42%, rgba(38, 68, 128, 0.01) 62%, transparent 82%),
+        linear-gradient(135deg, #1a2744 0%, #243654 25%, #2e4664 50%, #243654 75%, #1a2744 100%)
       `,
       backgroundAttachment: 'fixed',
       backgroundSize: '100% 100%'
     }}>
       {/* Floating Navigation */}
       <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-3">
-        <div className="backdrop-blur-md rounded-full shadow-lg px-3 py-2 flex items-center gap-1" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)' }}>
+        <div className="backdrop-blur-md rounded-full shadow-lg px-3 py-2 flex items-center gap-1" style={{ backgroundColor: 'rgba(20, 35, 60, 0.6)', border: '1px solid rgba(100, 140, 200, 0.3)' }}>
           {sections.map((section) => (
             <button
               key={section.id}
               onClick={() => scrollToSection(section.id)}
               className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap"
               style={activeSection === section.id 
-                ? { backgroundColor: 'rgba(0, 0, 0, 0.4)', color: '#e8e6e3' }
-                : { color: '#b8b5b0' }
+                ? { backgroundColor: 'rgba(40, 70, 120, 0.5)', color: '#e8eef5' }
+                : { color: '#a8b8ce' }
               }
               onMouseEnter={(e) => {
                 if (activeSection !== section.id) {
-                  e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
-                  e.currentTarget.style.color = '#e8e6e3';
+                  e.currentTarget.style.backgroundColor = 'rgba(40, 70, 120, 0.3)';
+                  e.currentTarget.style.color = '#e8eef5';
                 }
               }}
               onMouseLeave={(e) => {
                 if (activeSection !== section.id) {
                   e.currentTarget.style.backgroundColor = 'transparent';
-                  e.currentTarget.style.color = '#b8b5b0';
+                  e.currentTarget.style.color = '#a8b8ce';
                 }
               }}
             >
@@ -104,18 +104,18 @@ export default function PersonalWebsite() {
           target="_blank"
           rel="noopener noreferrer"
           className="backdrop-blur-md rounded-full shadow-lg px-4 py-2.5 transition-all flex items-center gap-2 font-medium"
-          style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', border: '1px solid rgba(255, 255, 255, 0.2)', color: '#ffffff' }}
+          style={{ backgroundColor: 'rgba(20, 35, 60, 0.6)', border: '1px solid rgba(100, 140, 200, 0.3)', color: '#e8eef5' }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.7)';
+            e.currentTarget.style.backgroundColor = 'rgba(40, 70, 120, 0.6)';
             e.currentTarget.style.color = '#ffffff';
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.backgroundColor = 'rgba(29, 31, 43, 0.5)';
-            e.currentTarget.style.color = '#ffffff';
+            e.currentTarget.style.backgroundColor = 'rgba(20, 35, 60, 0.6)';
+            e.currentTarget.style.color = '#e8eef5';
           }}
           aria-label="LinkedIn"
         >
-          <LinkedInLogo className="w-5 h-5" style={{ color: '#ffffff' }} />
+          <LinkedInLogo className="w-5 h-5" style={{ color: '#e8eef5' }} />
           <span className="text-sm font-semibold">LinkedIn</span>
         </a>
       </nav>
@@ -123,9 +123,9 @@ export default function PersonalWebsite() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#1d1f2b' }}>Zofia Kowalska</h1>
-          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#1d1f2b' }}>Job Title / Academic Position</p>
-          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#1d1f2b' }}>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4" style={{ color: '#e8eef5' }}>Zofia Kowalska</h1>
+          <p className="text-2xl md:text-3xl mb-8" style={{ color: '#e8eef5' }}>Job Title / Academic Position</p>
+          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#c8d4e6' }}>
             Welcome to my personal website. Scroll down to learn more about my background, experience, and work.
           </p>
         </div>
@@ -135,13 +135,13 @@ export default function PersonalWebsite() {
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
           <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ minHeight: '280px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
-            <h2 className="text-4xl font-bold mb-8" style={{ color: '#e8e6e3' }}>About Me</h2>
-            <div className="prose max-w-none space-y-4 text-base" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+            <h2 className="text-4xl font-bold mb-8" style={{ color: '#e8eef5' }}>About Me</h2>
+            <div className="prose max-w-none space-y-4 text-base" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
               <p>
                 Welcome! I'm a [your field] professional with expertise in [key areas]. 
                 My work focuses on [main research/work interests].
@@ -150,8 +150,8 @@ export default function PersonalWebsite() {
                 Replace this text with your professional biography. Include your background, 
                 current role, research interests, and what drives your work.
               </p>
-              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#e8e6e3' }}>Research Interests</h3>
-              <ul className="list-disc list-inside space-y-2" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+              <h3 className="text-2xl font-semibold mt-8 mb-4" style={{ color: '#e8eef5' }}>Research Interests</h3>
+              <ul className="list-disc list-inside space-y-2" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                 <li>Research Area 1</li>
                 <li>Research Area 2</li>
                 <li>Research Area 3</li>
@@ -164,23 +164,23 @@ export default function PersonalWebsite() {
       {/* Education Section */}
       <section id="education" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Education</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8eef5' }}>Education</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Degree Name</h3>
-                    <p className="text-lg" style={{ color: '#e8e6e3' }}>University Name</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8eef5' }}>Degree Name</h3>
+                    <p className="text-lg" style={{ color: '#e8eef5' }}>University Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Graduation Year</span>
+                  <span className="font-medium" style={{ color: '#e8eef5' }}>Graduation Year</span>
                 </div>
-                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                <p style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                   Field of study, thesis title (if applicable), advisor, honors, or other relevant details.
                 </p>
               </div>
@@ -192,23 +192,23 @@ export default function PersonalWebsite() {
       {/* Experience Section */}
       <section id="experience" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Professional Experience</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8eef5' }}>Professional Experience</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Position Title</h3>
-                    <p className="text-lg" style={{ color: '#e8e6e3' }}>Organization Name</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8eef5' }}>Position Title</h3>
+                    <p className="text-lg" style={{ color: '#e8eef5' }}>Organization Name</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Start - End Date</span>
+                  <span className="font-medium" style={{ color: '#e8eef5' }}>Start - End Date</span>
                 </div>
-                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                <p style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                   Describe your responsibilities, achievements, and key projects in this role. 
                   Highlight measurable impacts and important contributions.
                 </p>
@@ -221,18 +221,18 @@ export default function PersonalWebsite() {
       {/* Skills Section */}
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Skills</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8eef5' }}>Skills</h2>
           <div className="rounded-3xl shadow-md p-6 glass-box" style={{ 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {['Skill Category 1', 'Skill Category 2', 'Skill Category 3'].map((category, i) => (
                 <div key={i}>
-                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#e8e6e3' }}>{category}</h3>
-                  <ul className="space-y-2" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                  <h3 className="text-xl font-semibold mb-3" style={{ color: '#e8eef5' }}>{category}</h3>
+                  <ul className="space-y-2" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                     <li>• Skill 1</li>
                     <li>• Skill 2</li>
                     <li>• Skill 3</li>
@@ -247,27 +247,27 @@ export default function PersonalWebsite() {
       {/* Academic Works Section */}
       <section id="academic-works" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Academic Works</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8eef5' }}>Academic Works</h2>
           <div className="space-y-6">
             {[1, 2, 3].map((i) => (
               <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
-                <h3 className="text-xl font-bold mb-2" style={{ color: '#e8e6e3' }}>
+                <h3 className="text-xl font-bold mb-2" style={{ color: '#e8eef5' }}>
                   "Publication Title Goes Here"
                 </h3>
-                <p className="mb-3" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                <p className="mb-3" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                   Author Names (Year). <em>Journal/Conference Name</em>, Volume(Issue), pages.
                 </p>
-                <p className="mb-4" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                <p className="mb-4" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                   Brief description of the publication and its key findings or contributions.
                 </p>
-                <a href="#" className="font-medium" style={{ color: '#e8e6e3' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#c4b5a0'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8e6e3'}>
+                <a href="#" className="font-medium" style={{ color: '#e8eef5' }}
+                   onMouseEnter={(e) => e.currentTarget.style.color = '#8eb4e8'}
+                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8eef5'}>
                   View Publication →
                 </a>
               </div>
@@ -279,23 +279,23 @@ export default function PersonalWebsite() {
       {/* Leadership Initiatives Section */}
       <section id="leadership" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
-          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8e6e3' }}>Leadership Initiatives</h2>
+          <h2 className="text-4xl font-bold mb-12" style={{ color: '#e8eef5' }}>Leadership Initiatives</h2>
           <div className="space-y-6">
             {[1, 2].map((i) => (
               <div key={i} className="rounded-3xl shadow-md p-6 glass-box" style={{ minHeight: '220px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-2 mb-4">
                   <div>
-                    <h3 className="text-2xl font-bold" style={{ color: '#e8e6e3' }}>Leadership Role / Initiative</h3>
-                    <p className="text-lg" style={{ color: '#e8e6e3' }}>Organization / Group</p>
+                    <h3 className="text-2xl font-bold" style={{ color: '#e8eef5' }}>Leadership Role / Initiative</h3>
+                    <p className="text-lg" style={{ color: '#e8eef5' }}>Organization / Group</p>
                   </div>
-                  <span className="font-medium" style={{ color: '#e8e6e3' }}>Date Range</span>
+                  <span className="font-medium" style={{ color: '#e8eef5' }}>Date Range</span>
                 </div>
-                <p style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+                <p style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                   Describe your leadership role, initiatives you led, impact made, and key achievements.
                 </p>
               </div>
@@ -308,21 +308,21 @@ export default function PersonalWebsite() {
       <section id="cv" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
           <div className="rounded-lg shadow-md p-8 md:p-12 text-center" style={{ 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
-            <h2 className="text-4xl font-bold mb-6" style={{ color: '#e8e6e3' }}>Curriculum Vitae</h2>
-            <p className="text-base mb-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+            <h2 className="text-4xl font-bold mb-6" style={{ color: '#e8eef5' }}>Curriculum Vitae</h2>
+            <p className="text-base mb-8" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
               Download my complete CV to view my full academic and professional background.
             </p>
             <a
               href="#"
               className="inline-block text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md"
-              style={{ backgroundColor: '#1d1f2b' }}
-              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#6c5b92'}
-              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1d1f2b'}
+              style={{ backgroundColor: '#1a2744' }}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#3d5a80'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1a2744'}
             >
               Download CV (PDF)
             </a>
@@ -334,22 +334,22 @@ export default function PersonalWebsite() {
       <section id="contact" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-5xl mx-auto w-full px-8">
           <div className="rounded-3xl shadow-md p-6 md:p-10 glass-box" style={{ minHeight: '280px', 
-          backgroundColor: 'rgba(29, 31, 43, 0.5)',
+          backgroundColor: 'rgba(20, 35, 60, 0.6)',
           backdropFilter: 'blur(16px)',
-          border: '1px solid rgba(255, 255, 255, 0.2)',
-          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
+          border: '1px solid rgba(100, 140, 200, 0.3)',
+          boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.1)',
         }}>
-            <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#e8e6e3' }}>Get In Touch</h2>
+            <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: '#e8eef5' }}>Get In Touch</h2>
             <div className="max-w-2xl mx-auto space-y-6">
               <div className="flex items-center gap-4 justify-center">
-                <Mail className="w-6 h-6" style={{ color: '#e8e6e3' }} />
-                <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8e6e3' }}
-                   onMouseEnter={(e) => e.currentTarget.style.color = '#c4b5a0'}
-                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8e6e3'}>
+                <Mail className="w-6 h-6" style={{ color: '#e8eef5' }} />
+                <a href="mailto:your.email@example.com" className="text-lg transition" style={{ color: '#e8eef5' }}
+                   onMouseEnter={(e) => e.currentTarget.style.color = '#8eb4e8'}
+                   onMouseLeave={(e) => e.currentTarget.style.color = '#e8eef5'}>
                   your.email@example.com
                 </a>
               </div>
-              <p className="text-center mt-8" style={{ color: '#b8b5b0', fontSize: '0.9rem' }}>
+              <p className="text-center mt-8" style={{ color: '#a8b8ce', fontSize: '0.9rem' }}>
                 Feel free to reach out for collaborations, questions, or opportunities.
               </p>
             </div>
@@ -358,8 +358,8 @@ export default function PersonalWebsite() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8" style={{ backgroundColor: 'rgba(29, 31, 43, 0.5)', borderTop: '1px solid #1d1f2b' }}>
-        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#938eb8' }}>
+      <footer className="py-8" style={{ backgroundColor: 'rgba(20, 35, 60, 0.6)', borderTop: '1px solid rgba(100, 140, 200, 0.3)' }}>
+        <div className="max-w-6xl mx-auto px-6 text-center" style={{ color: '#8a9fbf' }}>
           <p>© 2024 Your Name. All rights reserved.</p>
         </div>
       </footer>
